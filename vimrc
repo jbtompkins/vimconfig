@@ -7,6 +7,8 @@ set hlsearch
 set cindent cinkeys-=0#
 set expandtab shiftwidth=4 tabstop=4 softtabstop=4
 
+colorscheme everforest
+
 syntax enable
 
 cnoreabbrev <expr> numkill ((getcmdtype() is# ':' && getcmdline() is# 'numkill')?('set nonumber norelativenumber'):('numkill'))
