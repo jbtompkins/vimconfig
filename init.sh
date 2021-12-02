@@ -9,4 +9,4 @@ echo "Writing new .vimrc"
 echo "runtime vimrc" > .vimrc
 
 # Move vimconfig folder contents to .vim directory
-cp -r * ../.vim/
+cp -r * ~/.vim/
