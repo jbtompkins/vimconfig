@@ -7,3 +7,6 @@ fi
 # Write new vimrc to use vimrc in .vim directory
 echo "Writing new .vimrc"
 echo "runtime vimrc" > .vimrc
+
+# Move vimconfig folder contents to .vim directory
+cp -r * ../.vim/
